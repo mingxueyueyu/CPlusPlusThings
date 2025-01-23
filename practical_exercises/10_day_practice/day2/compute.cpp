@@ -1,6 +1,7 @@
 /* 求π.cpp */
 #include <iostream>
 using namespace std;
+//用arctan计算反正切值
 double arctan(double x);
 int main(int argc, char const *argv[]) {
   double a = 16.0 * arctan(1.0 / 5.0);
